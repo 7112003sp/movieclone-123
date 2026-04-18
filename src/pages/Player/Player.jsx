@@ -4,7 +4,7 @@ import back_icon from '../../assets/back_arrow_icon.png'
 import { Link, useParams } from 'react-router-dom'
 
 const Player = () => {
-  const id = useParams()
+  const {id} = useParams()
   const [api, setapi] = useState({
     "name": "",
     "key": "",
