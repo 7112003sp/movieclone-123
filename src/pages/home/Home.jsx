@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Navbar from '../../Components/Navbar/Navbar'
-import hero_banner from '/Users/suryaprakash/Desktop/React_Projects/netflix/public/og.jpg'
+import hero_banner from '../../assets/og.jpg'
 import hero_title from '../../assets/hero_title.png'
 import hero_play from '../../assets/Play_icon.png'
 import hero_info from '../../assets/info_icon.png'
@@ -19,7 +19,7 @@ const Home = () => {
           <img src={hero_banner} alt='' className='bg-image'/>
           <div className="hero-caption">
             <img src={hero_title} alt='' className='cap-img'/>
-            <p>After vanishing from Mumbai's underworld for a decade, mob boss Ojas Gambheera resurfaces seeking vengeance against rival crime lords.</p>
+            <p>After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</p>
             <div className="her-btn">
              <button className='btn'> <img src={hero_play} alt=''/>Play</button>
              <button className='btn dark-btn' > <img src={hero_info} alt=''/>More Info</button>

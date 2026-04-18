@@ -1,6 +1,6 @@
 .login{
     height: 100vh;
-    background-image:linear-gradient(#0000007e,#00000070) ,url(/Users/suryaprakash/Desktop/React_Projects/netflix/public/background_banner.jpg) ;
+    background-image:linear-gradient(#0000007e,#00000070) ,url(../../assets/background_banner.jpg) ;
     padding: 20px 8%;
 }
 .login>img{

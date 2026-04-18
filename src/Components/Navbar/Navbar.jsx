@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from 'react'
 import './Navbar.css'
-import logo from '/Users/suryaprakash/Desktop/React_Projects/netflix/src/assets/logo.png'
-import search from '/Users/suryaprakash/Desktop/React_Projects/netflix/src/assets/search_icon.svg'
-import bell from '/Users/suryaprakash/Desktop/React_Projects/netflix/src/assets/bell_icon.svg'
-import profile from '/Users/suryaprakash/Desktop/React_Projects/netflix/src/assets/profile_img.png'
-import caret from '/Users/suryaprakash/Desktop/React_Projects/netflix/src/assets/caret_icon.svg'
+import logo from '../../assets/logo.png'
+import search from '../../assets/search_icon.svg'
+import bell from '../../assets/bell_icon.svg'
+import profile from '../../assets/profile_img.png'
+import caret from '../../assets/caret_icon.svg'
 
 import { logout } from '../../auth'
 

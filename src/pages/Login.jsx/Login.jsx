@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import './login.css'
-import logo from '/Users/suryaprakash/Desktop/React_Projects/netflix/src/assets/logo.png'
+import logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom'
 import { login,signUp } from '../../auth'
-import spin from '/Users/suryaprakash/Desktop/React_Projects/netflix/src/assets/netflix_spinner.gif'
+import spin from '../../assets/netflix_spinner.gif'
 
 const Login = () => {
   const [signstate, setsignstate] = useState("Sign In")

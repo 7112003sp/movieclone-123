@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Player.css'
-import back_icon from '/Users/suryaprakash/Desktop/React_Projects/netflix/src/assets/back_arrow_icon.png'
+import back_icon from '../../assets/back_arrow_icon.png'
 import { Link, useParams } from 'react-router-dom'
 
 const Player = () => {
